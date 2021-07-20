@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'Della Respira', serif;
+}
+
+.red-color {
+  color: rgb(205, 36, 36);
+}
+
+.screenshot {
+  width: 550px;
+}
+
+.logo {
+  width: 350px;
+}
+
+.icon-bigger-size {
+  font-size: 3rem;
+}
+
+.icon-medium-size {
+  font-size: 2rem;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: rgb(47, 1, 1);
+  color: rgb(225, 232, 239);
+  display: flex;
+  flex-direction: column;
+}
