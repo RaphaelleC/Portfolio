@@ -1,6 +1,9 @@
 function Contact() {
   return (
-    <main className="text-center">
+    <main className="text-center" id="contact">
+      <br/>
+      <br/>
+      <br/>
       <h1 className="">Contact</h1>
       <div className="row">
         <div className="col"></div>
@@ -14,7 +17,7 @@ function Contact() {
               <li className="list-inline-item">
                 <i className="fa fa-envelope"></i>
               </li>
-              <li className="list-inline-item"><p>Email</p></li>
+              <li className="list-inline-item fs-5"><p>Email</p></li>
             </ul>
           </a>
           <a
@@ -27,7 +30,7 @@ function Contact() {
               <li className="list-inline-item">
                 <i className="fa fa-github"></i>
               </li>
-              <li className="list-inline-item"><p>GitHub</p></li>
+              <li className="list-inline-item fs-5"><p>GitHub</p></li>
             </ul>
           </a>
           <a
@@ -40,7 +43,7 @@ function Contact() {
               <li className="list-inline-item">
                 <i className="fa fa-linkedin"></i>
               </li>
-              <li className="list-inline-item"><p>LinkedIn</p></li>
+              <li className="list-inline-item fs-5"><p>LinkedIn</p></li>
             </ul>
           </a>
         </div>

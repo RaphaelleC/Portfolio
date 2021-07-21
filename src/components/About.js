@@ -1,12 +1,15 @@
 function About() {
   return (
-    <main className="text-center">
+    <main className="text-center" id="about">
+      <br/>
+      <br/>
+      <br/>
       <div className="container">
         <div className="row">
-          <h1 className="fw-bold red-color">About Me</h1>
+          <h1 className="fw-bold text-danger mb-5">About Me</h1>
           <hr className="border"></hr>
           <div className="mt-5 mb-5">
-            <p>I have been struggling for a while to find a field that I would love to work in. Some family members and my partner are working in IT and they got me curious about this field. After I took some self learning lessons about HTML, CSS and JavaScript, I decided to take on the GA immersive course because I was super interested in learning more. The logic and the multiple ways to solve a problem makes coding a very varied work field where there’s always something new to discover, and that’s extremely stimulating for me. Everything I learnt and all the projects I worked on during this course make me particularly motivated and enthusiastic to jump on a real role within a proper work environment. I am excited to learn more and develop my skills and my experience.</p>
+            <p className="fs-5">I have been struggling for a while to find a field that I would love to work in. Some family members and my partner are working in IT and they got me curious about this field. After I took some self learning lessons about HTML, CSS and JavaScript, I decided to take on the GA immersive course because I was super interested in learning more. The logic and the multiple ways to solve a problem makes coding a very varied work field where there’s always something new to discover, and that’s extremely stimulating for me. Everything I learnt and all the projects I worked on during this course make me particularly motivated and enthusiastic to jump on a real role within a proper work environment. I am excited to learn more and develop my skills and my experience.</p>
           </div>
           <div className="col"></div>
           <div className="col-8">  
