@@ -4,10 +4,15 @@ function Contact() {
       <br/>
       <br/>
       <br/>
-      <h1 className="">Contact</h1>
+      <div className="container">
+        <div className="row">
+          <h1 className="fw-bold text-danger mb-5">Contact</h1>
+          <hr className="border"></hr>
+        </div>
+      </div>
       <div className="row">
         <div className="col"></div>
-        <div className="m-5 pt-4 col-3 border border-5 border-light rounded-circle bg-light">
+        <div className="m-5 pt-4 col-4 border border-5 border-light rounded bg-light">
           <a
             className="link-danger"
             target="_blank" 
@@ -15,9 +20,11 @@ function Contact() {
             rel="noreferrer">
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-envelope"></i>
+                <i className="fa fa-envelope fs-4"></i>
               </li>
-              <li className="list-inline-item fs-5"><p>Email</p></li>
+              <li className="list-inline-item fs-4">
+                <p className="badge bg-danger">Email</p>
+              </li>
             </ul>
           </a>
           <a
@@ -28,9 +35,11 @@ function Contact() {
           >
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-github"></i>
+                <i className="fa fa-github fs-4"></i>
               </li>
-              <li className="list-inline-item fs-5"><p>GitHub</p></li>
+              <li className="list-inline-item fs-4">
+                <p className="badge bg-danger">GitHub</p>
+              </li>
             </ul>
           </a>
           <a
@@ -41,9 +50,11 @@ function Contact() {
           >
             <ul className="list-inline">
               <li className="list-inline-item">
-                <i className="fa fa-linkedin"></i>
+                <i className="fa fa-linkedin fs-4"></i>
               </li>
-              <li className="list-inline-item fs-5"><p>LinkedIn</p></li>
+              <li className="list-inline-item fs-4">
+                <p className="badge bg-danger">LinkedIn</p>
+              </li>
             </ul>
           </a>
         </div>

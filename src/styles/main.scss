@@ -5,6 +5,20 @@ main {
   font-family: 'Della Respira', serif;
 }
 
+section {
+  height: 100vh;
+  font-family: 'Della Respira', serif;
+}
+
+.name {
+  font-family: 'Press Start 2P', serif;
+  font-size: 40px;
+}
+
+.home-div {
+  height:75vh;
+}
+
 .dark-red-color {
   color: rgb(47, 1, 1);
 }
@@ -14,11 +28,11 @@ main {
 }
 
 .logo {
-  width: 350px;
+  width: 400px;
 }
 
 .icon-bigger-size {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .icon-medium-size {
