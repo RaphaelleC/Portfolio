@@ -12,7 +12,7 @@ function Interests() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="m-5">
+          <div className="m-5 col">
             <p className="fs-5">I&apos;ve had the chance to travel in a few countries, like Japan, Spain (Barcelona), Italy (Rimini) and in the French Alps (I thrive when snowboarding). I am looking forward to my next adventures ! Discovering new ways of living, thinking and approaching life is such an enriching experience.</p>
           </div>
         </div>
